@@ -28,6 +28,10 @@ body {
   color: #ececec;
 }
 
+#links {
+  text-align: center;
+}
+
 a {
   color: #000000;
   font-weight: 600;
