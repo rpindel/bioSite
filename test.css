@@ -1,13 +1,16 @@
 h1 {
-font-size: 40px;
+font-size: 38px;
+font-family: "Sofia", "Open Sans", Arial, sans-serif;
 }
 
 h2 {
 font-size: 28px;
+font-family: "Sofia", "Open Sans", Arial, sans-serif;
 }
 
 p {
 font-size: 18px;
+font-family: "Klee One", "Open Sans", Arial, sans-serif;
 }
 
 body {
@@ -24,10 +27,19 @@ body {
   color: #ececec;
 }
 
-#main h1, h2 {
-  font-family: "Sofia","Open Sans", Arial, sans-serif;
+a {
+  color: #000000;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 2%;
+  font-family: "Open Sans", Arial, sans-serif;
 }
 
-p {
-  font-family: "Klee One", "Open Sans", Arial, sans-serif;
+a:hover {
+  color: #ececec;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #660170;
 }
