@@ -1,0 +1,33 @@
+h1 {
+font-size: 40px;
+}
+
+h2 {
+font-size: 28px;
+}
+
+p {
+font-size: 18px;
+}
+
+body {
+  background-color: #8d8d8d;
+}
+
+#main {
+  background-color: #440150;
+  margin: 2%;
+  padding: 1% 2% 2% 2%;
+}
+
+#main h1, h2, p {
+  color: #ececec;
+}
+
+#main h1, h2 {
+  font-family: "Sofia","Open Sans", Arial, sans-serif;
+}
+
+p {
+  font-family: "Klee One", "Open Sans", Arial, sans-serif;
+}
