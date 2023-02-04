@@ -21,6 +21,7 @@ body {
   background-color: #440150;
   margin: 2%;
   padding: 1% 2% 2% 2%;
+  border-radius: 20px;
 }
 
 #main h1, h2, p {
@@ -30,16 +31,17 @@ body {
 a {
   color: #000000;
   font-weight: 600;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 16px;
   text-decoration: none;
   margin-left: 2%;
-  font-family: "Open Sans", Arial, sans-serif;
+}
+
+a:visited {
+  color: #660170;
 }
 
 a:hover {
   color: #ececec;
   text-decoration: underline;
-}
-
-a:visited {
-  color: #660170;
 }
