@@ -26,17 +26,17 @@
     background-color: #8d8d8d;
   }
   
-  #main {
+  .main {
     background-color: #440150;
     margin: 2%;
     padding: 1% 2% 2% 2%;
     border-radius: 20px;
   }
   
-  #main h1, h2, h3, p {
+  .main h1, h2, h3, p {
     color: #ececec;
   }
-  
+
   footer {
     text-align: center;
   }
@@ -57,4 +57,12 @@
   a:hover {
     color: #ececec;
     text-decoration: underline;
+  }
+
+  #landingtitle h1 {
+    text-align: center;
+  }
+
+  #abouttitle h1 {
+    text-align: right;
   }
