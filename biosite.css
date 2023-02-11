@@ -1,0 +1,60 @@
+/*Robin Pindel
+  CSD 340 bioSite*/
+
+
+  h1 {
+    font-size: 38px;
+    font-family: "Sofia", "Open Sans", Arial, sans-serif;
+  }
+  
+  h2 {
+    font-size: 28px;
+    font-family: "Sofia", "Open Sans", Arial, sans-serif;
+  }
+  
+  h3 {
+    font-size: 20px;
+    font-family: "Sofia", "Open Sans", Arial, sans-serif;  
+  }
+  
+  p {
+    font-size: 18px;
+    font-family: "Klee One", "Open Sans", Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #8d8d8d;
+  }
+  
+  #main {
+    background-color: #440150;
+    margin: 2%;
+    padding: 1% 2% 2% 2%;
+    border-radius: 20px;
+  }
+  
+  #main h1, h2, h3, p {
+    color: #ececec;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
+  a {
+    color: #000000;
+    font-weight: 600;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 2%;
+  }
+  
+  a:visited {
+    color: #660170;
+  }
+  
+  a:hover {
+    color: #ececec;
+    text-decoration: underline;
+  }
