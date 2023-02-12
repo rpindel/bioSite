@@ -25,9 +25,12 @@
   body {
     background-color: #8d8d8d;
   }
+
+  #container {
+    background-color: #440150;
+  }
   
   .main {
-    background-color: #440150;
     margin: 2%;
     padding: 1% 2% 2% 2%;
     border-radius: 20px;
@@ -40,9 +43,6 @@
 
   footer {
     text-align: center;
-    position: absolute;
-    bottom: 0;
-    width: 99%;
     padding: 20px 0px;
   }
   
@@ -64,20 +64,137 @@
     text-decoration: underline;
   }
 
-  #landingtitle {
-    width: 50%;
+  #landing-title {
+    text-align: center;
+    border: solid red;
+    border-radius: 15px;
+  }
+
+  #portrait-image {
+    display: block;
     margin: 0 auto;
+    width: 50%;
+    border: solid red;
+    border-radius: 15px;
+  }
+
+  #landing-content {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: solid red;
+    border-radius: 15px;
+  }
+
+  #landing-content div {
+    background-color: black;
+    margin: 10px 20px 10px 20px;
+    border: solid red;
+    border-radius: 15px;
+  }
+
+  #landing-content figure {
     text-align: center;
   }
 
-  #abouttitle {
-    width: 50%;
+  #landing-content img {
+    height: 200px;
+    width: 200px;
+  }
+
+  #about-title {
+    text-align: center;
+  }
+
+  #about-image img {
+    height: 200px;
+    width: 200px;
     float: left;
-    text-align: center;
+    margin-right: 40px;
   }
 
-  #hobbiestitle {
-    width: 50%;
+  #hobbies-title {
+    text-align: left;
+  }
+
+  #hobby-1 {
+    border: solid red;
+    overflow: auto;
+    width: 100%;
+  }
+
+  #h1left {
+    width: 25%;
+    float: left;
+    border: solid red;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  #h1left img {
+    height: 200px;
+    width: 200px;
+  }
+
+  #h1right {
+    width: 65%;
     float: right;
-    text-align: center;
+    border: solid red;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  #hobby-2 {
+    border: solid yellow;
+    overflow: auto;
+    width: 100%;
+  }
+
+  #h2left {
+    width: 65%;
+    float: right;
+    border: solid yellow;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  #h2right {
+    width: 25%;
+    float: right;
+    border: solid yellow;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  #h2right img {
+    height: 200px;
+    width: 200px;
+    float: right;
+  }
+
+  #hobby-3 {
+    border: solid green;
+    overflow: auto;
+    width: 100%;
+  }
+
+  #h3left {
+    width: 25%;
+    float: left;
+    border: solid green;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  #h3left img {
+    height: 200px;
+    width: 200px;
+    float: left;
+  }
+
+  #h3right {
+    width: 65%;
+    float: right;
+    border: solid green;
+    margin: 10px;
+    padding: 10px;
   }
