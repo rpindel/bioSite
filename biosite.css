@@ -66,30 +66,21 @@
 
   #landing-title {
     text-align: center;
-    border: solid red;
-    border-radius: 15px;
   }
 
   #portrait-image {
     display: block;
     margin: 0 auto;
     width: 50%;
-    border: solid red;
-    border-radius: 15px;
   }
 
   #landing-content {
     display: grid;
     grid-template-columns: auto auto auto;
-    border: solid red;
-    border-radius: 15px;
   }
 
   #landing-content div {
-    background-color: black;
     margin: 10px 20px 10px 20px;
-    border: solid red;
-    border-radius: 15px;
   }
 
   #landing-content figure {
