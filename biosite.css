@@ -29,16 +29,13 @@
   body {
     background-color: #8d8d8d;
   }
-
-  #container {
-    background-color: #440150;
-  }
   
   .main {
     margin: 2%;
     padding: 2%;
     border-radius: 20px;
     overflow: hidden;
+    background-color: #440150;
   }
 
   footer {
@@ -73,7 +70,7 @@
     margin: 0 auto;
     height: 520px;
     width: 676px;
-    padding-right: 80px;
+    padding-left: 73px;
   }
 
   #landing-content {
@@ -89,6 +86,10 @@
     margin: 10px 10px 10px 10px;
   }
 
+  #landing-content figure {
+    text-align: left;
+  }
+
   .one-one {
     height: 200px;
     width: 200px;
@@ -97,10 +98,6 @@
   .two-one {
     height: 200px;
     width: 300px;
-  }
-
-  #landing-content figure {
-    text-align: left;
   }
 
   #about-title {
@@ -123,5 +120,5 @@
   }
 
   tr, td {
-    padding: 10px;  
-  }  
+    padding: 10px;
+  }
