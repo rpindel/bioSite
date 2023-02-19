@@ -36,7 +36,7 @@
   
   .main {
     margin: 2%;
-    padding: 1% 2% 2% 2%;
+    padding: 2%;
     border-radius: 20px;
     overflow: hidden;
   }
@@ -71,7 +71,9 @@
   #portrait-image {
     display: block;
     margin: 0 auto;
-    width: 50%;
+    height: 520px;
+    width: 676px;
+    padding-right: 80px;
   }
 
   #landing-content {
@@ -79,17 +81,26 @@
     grid-template-columns: auto auto auto;
   }
 
-  #landing-content div {
-    margin: 10px 20px 10px 20px;
-  }
-
-  #landing-content figure {
+  #landing-content h3 {
     text-align: center;
   }
 
-  #landing-content img {
+  #landing-content div {
+    margin: 10px 10px 10px 10px;
+  }
+
+  .one-one {
     height: 200px;
     width: 200px;
+  }
+
+  .two-one {
+    height: 200px;
+    width: 300px;
+  }
+
+  #landing-content figure {
+    text-align: left;
   }
 
   #about-title {
@@ -97,8 +108,8 @@
   }
 
   #about-image img {
-    height: 200px;
-    width: 200px;
+    height: 428px;
+    width: 242px;
     float: left;
     margin-right: 30px;
   }
