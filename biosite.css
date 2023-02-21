@@ -70,13 +70,20 @@
     margin: 0 auto;
   }
 
-  #landing-content {
+  /*#landing-content {
     display: grid;
     grid-template-columns: auto auto auto;
   }
 
   #landing-content div {
     margin: 10px 10px 10px 10px;
+  }*/
+
+  #landing-content div {
+    margin: 10px 10px 10px 10px;
+    max-width: 32%;
+    /*border: solid 1px red;*/
+    float: left;
   }
 
   #landing-content figure {
