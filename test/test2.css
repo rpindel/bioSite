@@ -12,8 +12,9 @@
   
   h3 {
     font-size: 20px;
-    font-family: "Sofia", "Open Sans", Arial, sans-serif;
-    color: #ececec;  
+    font-family: /*"Sofia",*/ "Open Sans", Arial, sans-serif;
+    color: #ececec;
+    font-weight: 600;  
   }
   
   p {
