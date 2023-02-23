@@ -30,6 +30,17 @@
   body {
     background-color: #8d8d8d;
   }
+
+  header {
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  footer p {
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
   
   .main {
     margin: 2%;
@@ -37,11 +48,6 @@
     border-radius: 20px;
     overflow: hidden;
     background-color: #440150;
-  }
-
-  footer {
-    text-align: center;
-    padding: 20px;
   }
   
   a {
@@ -79,7 +85,6 @@
   #landing-content figure {
     margin: 10px 10px 10px 10px;
     max-width: 31%;
-    /*border: solid 1px red;*/
     float: left;
     text-align: center;
   }
@@ -131,10 +136,6 @@
     display: block;
     margin: 0 auto;
   }
-
-  /*#hobby-content div {
-    border: 2px solid red
-  }*/
 
   #hobby-text1, #hobby-text2, #hobby-text3 {
     max-width: 50%;
